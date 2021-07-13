@@ -7,7 +7,9 @@ export function request(config) {
     const instance = axios.create({
       // 笑话链接
       // baseURL: 'https://autumnfish.cn/api/joke/list',
-      baseURL: 'http://123.207.32.32:8000',
+      // baseURL: 'http://123.207.32.32:8000',
+      //最新接口20210708
+      baseURL: 'http://152.136.185.210:7878/api/m5',
       timeout: 5000
     })
 
